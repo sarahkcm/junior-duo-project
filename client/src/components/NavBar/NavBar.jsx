@@ -9,7 +9,7 @@ import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 export default function NavBar() {
   const [value, setValue] = React.useState('recents');
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = ( newValue) => {
     setValue(newValue);
   };
 
